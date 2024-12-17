@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="header-section">
+        <div class="logo-container">
+            <h3>Recipe Hub</h3>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="" id="active-link">Home</a></li>
+            <li><a href="">Favorites</a></li>
+            <li><a href="">Meals plan</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+
+        <div class="header-button-container">
+            <button>Join our community</button>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-background-image">
+
+            <div class="image-overlay">
+                <div class="hero-text-group-and-form-container">
+                    <div class="text-group-container">
+                        <h1>Discover Your Next Favorite Recipe</h1>
+                        <p>Search through thousands of recipes tailored to your tastes and dietary needs. Whether you're looking for quick weeknight meals, healthy options, or indulgent treats, we have something for everyone!</p>
+                    </div>
+                    <div class="form-container">
+                        <form id="form">
+                            <div class="input-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" name="searchinput" id="searchinput" placeholder="Search for recipes">
+                            </div>
+                            <button type="submit" id="search-button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-result-section" id="search-result-section">
+        <div class="text-container">
+            <h4>Search results</h4>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-image-container">
+
+                </div>
+                
+                <div class="card-details-text-container">
+                    <div class="card-title-and-like-container">
+                        <h3>Rice</h3>
+                        <div class="icons-container">
+                            <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-description-group-container">
+                        <div class="dish-type-container">
+                            <div class="dish-type-text">
+                                <p>Dish Type:</p>
+                            </div>
+                            <div class="main-course">
+                                <p>Main course</p>
+                            </div>
+                        </div>
+                        
+                        <div class="meal-type-container">
+                            <div class="meal-type-text">
+                                <p>Meal Type:</p>
+                            </div>
+                            <div class="lunch-text">
+                                Lunch/Dinner
+                            </div>
+                        </div>
+
+                        <div class="recipe-container">
+                            <div class="recipe-text">
+                                <p>Recipe:</p>
+                            </div>
+                            <div class="all-recipe-container">
+                                <p>Lorem . ipsum .dolor. sit. amet .consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
